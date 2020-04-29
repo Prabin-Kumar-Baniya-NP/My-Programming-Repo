@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+nav ul {
+    list-style-type: none;
+    border-top: 4px solid rgb(175, 56, 0);
+    background-color: black;
+}
+nav ul a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 25px;
+    color: rgb(253, 82, 0);
+}
+nav ul a:hover {
+    color: whitesmoke;
+}
+.logo {
+    display: flex;
+}
