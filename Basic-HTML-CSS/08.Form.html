@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form</title>
+        <style>
+            input[type=text] {
+                background-color: chocolate;
+            }
+            input[type=password]{
+                background-color: gold;
+            }
+        </style>
+    </head>
+    <body>
+        <form action="/action_page.php" method="get" target="_self">
+            <!--Email-->
+            <label for="Email">Email</label>
+            <input type="text" placeholder="Email" name="Name"><br>
+            <!--Password-->
+            <label for="Password">Password</label>
+            <input type="password" placeholder="Password" name="Password"><br>
+            <!--Gender-->
+            <label for="Gender">Choose Gender</label><br>
+            <label for="Male">Male</label>
+            <input type="radio" id="Male" name="Gender" value="Male"><br>
+            <label for="Female">Female</label>
+            <input type="radio" id="Female" name="Gender" value="Female"><br>
+            <!--Country-->
+            <input list="Country" name="Country" placeholder="Country">
+            <datalist id="Country">
+                <option value="Nepal">Nepal</option>
+                <option value="India">India</option>
+                <option value="China">China</option>
+            </datalist>
+            <!--Submit-->
+            <input type="submit" placeholder="Submit" value="Submit">
+        </form>
+    </body>
+</html>

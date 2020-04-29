@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test</title>
+        <style>
+            .form-elements {
+                font-family:'Times New Roman', Times, serif;
+                font-weight: bold;
+                color: rgb(238, 163, 163);
+                background-color:rgb(4, 29, 29);
+                border: black solid;
+                border-width: 5px;
+                padding: 10px 5px 5px 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <form class="form-elements">
+            <label for="first-name">First Name
+            <input type="text" id="first-name" placeholder="First Name"></label>
+            <label for="Last-name">Last Name
+            <input type="text" id="Last-name" placeholder="Last Name"></label>
+            <p></p>
+            <label for="Email">Email
+            <input type="email" id="Email" placeholder="something@gmail.com"></label>
+            <label for="password">Password
+            <input type="password" id="password" name="Password" required></label>
+            <p></p>
+            <label for="Gender">Gender:
+            <label for="Male">Male
+            <input type="radio" name="Gender" value="Male"></label>
+            <label for="Female">Female
+            <input type="radio" name="Gender" value="Female"></label></label>
+            <p></p>
+            <label for="Favourite Sports">Choose Your Favourite Sports<br>
+            <label for="Cricket">Cricket
+            <input type="radio" name="Cricket" value="Cricket" checked></label>
+            <label for="Football">Football
+            <input type="radio" name="Football" value="Football"></label>
+            <label for="Volleyball">Volleyball
+            <input type="radio" name="Volleyball" value="Volleyball"></label></label>
+            <p></p>
+            <label form="Country">Country
+            <select name="Country">
+                <option value="India">India</option>
+                <option value="Nepal">Nepal</option>
+                <option value="America">America</option>
+                <option value="China">China</option>
+            </select></label>
+            <p></p>
+            <label for="Favourite_color">
+                <label for="Red">Red
+                    <input type="checkbox" name="Favourite_color" value="Red" checked>
+                </label> 
+                <label for="Blue">Blue
+                    <input type="checkbox" name="Favourite_color" value="Blue">
+                </label>
+                <label for="Yellow">Yellow
+                    <input type="checkbox" name="Favourite_color" value="Yellow">
+                </label>
+                </label>
+            </label>
+            <h3>Feedback</h3>
+            <textarea name="Feedback" rows="8" cols="50" style="color: whitesmoke;background-color: blue;"></textarea>
+            <p></p>
+            <input type="submit" value="Submit" style="background-color: red;color: wheat;border-radius: 5%;border: slateblue solid;">
+        </form>
+    </body>
+</html>

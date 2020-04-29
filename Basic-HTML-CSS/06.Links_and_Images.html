@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Links and Images</title>
+        <style>
+            a::before {
+                content: "\21d2 Click Here";
+                font-weight: bold;
+            }
+            p::selection {
+                color:brown;
+                background-color: chartreuse;
+            }
+        </style>
+    </head>
+    <body>
+        <p>
+            The target attribute specifies where to open the linked document.<br>
+            The target attribute can have one of the following values:<br>
+                  _blank - Opens the linked document in a new window or tab<br>
+                 _self - Opens the linked document in the same window/tab as it was clicked (this is default)<br>
+                 _parent - Opens the linked document in the parent frame<br>
+                 _top - Opens the linked document in the full body of the window<br>
+        </p>
+        <p><a href="https://www.facebook.com" target="_blank">Facebook Link In New Tab</a><br>
+        <a href="https://www.google.com" target="_self">Google Link in same tab</a><br>
+        <a href="https://www.twitter.com" target="_parent">Twitter link in parent frame</a><br>
+        <a href="https://www.bing.com" target="_top">Bing link in full body of the window</a><br>
+        </p>
+        <p>
+            <a href="https://cdn.pixabay.com/photo/2016/10/27/22/53/heart-1776746_960_720.jpg"><img src="https://cdn.pixabay.com/photo/2016/10/27/22/53/heart-1776746_960_720.jpg" alt="HTML images with link" height="250" width="300"></a>
+        </p>
+        <p>
+            <img src="https://cdn.pixabay.com/photo/2016/10/27/22/53/heart-1776746_960_720.jpg" style="height: 300px;width:350px;" alt="Image">
+            <img src="https://cdn.pixabay.com/photo/2016/10/27/22/53/heart-1776746_960_720.jpg" height="300" width="350">
+        </p>
+        <p>
+            <!--Creaking a bookmark-->
+            <h2 id="21">Section 21</h2>
+            <!--To go back to bookmarked location in the same page-->
+            <a href="#21">Click here to jump to Section 21</a>
+        </p>
+    </body>
+</html>
