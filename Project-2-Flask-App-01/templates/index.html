@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+
+{% block heading %}
+{{my_var}}<br>
+This is my First Flask application in Ubuntu<br>
+{% endblock %}
+
+{% block body%}
+    {% if new_year==True %}
+    Happy New Year<br>
+    {% else %}
+    Today is not New Year<br>
+    {% endif %}
+    Click <a href="{{url_for('contact_me')}}">here</a>to know about me
+{% endblock %}
