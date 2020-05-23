@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+body {
+    padding: 50px 0px 0px 0px;
+    font-family: 'Tinos', serif;
+}
+
+.navbar{
+    background-color: black;
+    color: white;
+}
+.nav-link:hover {
+    background-color: #ee4e5c;
+}
+
+.jumbotron{
+    background-color: #ee4e5c;
+    border-radius: 0px;
+}
+
+.list-display li{
+    display: inline;
+}
+
+.footer{
+    background-color: #74f3ed;
+    padding: 30px 10px 10px 10px;
+}
+
+#copyright-section {
+    justify-content: center;
+}
