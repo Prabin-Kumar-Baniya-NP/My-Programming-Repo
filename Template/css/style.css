@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
 body {
-    padding: 50px 0px 0px 0px;
     font-family: 'Tinos', serif;
 }
 
@@ -12,11 +11,21 @@ body {
     background-color: #ee4e5c;
 }
 
-.jumbotron{
-    background-color: #ee4e5c;
-    border-radius: 0px;
+.col-form-label{
+    text-align: center;
 }
 
+.jumbotron{
+    padding: 50px;
+    background-color: #ee4e5c;
+    border-radius: 0px;
+    background-size: cover;
+}
+
+.jumboHeaderImg {
+    background-image: url(/images/about-us-hero-image.jpg);
+    background-size: cover;
+}
 .list-display li{
     display: inline;
 }
