@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+*{
+    font-family: 'Cabin', sans-serif;
+}
+#footer-links{
+    text-decoration: none;
+    color: white;
+}

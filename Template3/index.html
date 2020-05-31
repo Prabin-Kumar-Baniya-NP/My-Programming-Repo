@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Try & Share Recipes</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+</head>
+<title>
+</title>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:cornsilk;">
+        <a class="navbar-brand" href="#"> <img src="/images/logo.png" width="30" height="30" alt="logo"> Try & Share
+            Recipes </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Recipes
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Pizza Recipes</a>
+                        <a class="dropdown-item" href="#">Burger Recipes</a>
+                        <a class="dropdown-item" href="#">Noodles Recipes</a>
+                        <a class="dropdown-item" href="#">Ice Cream Recipes</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-danger my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!-----------------------------------Navbar Ends-------------------------------------------------------------->
+    <!---------------------------------Carousel Starts------------------------------------------------------------->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="/images/banner1.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="/images/banner2.png" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="/images/banner3.png" alt="Third slide">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!-------------------------------Carousel Ends------------------------------------------------------------------>
+
+    <div class="container mt-4 mb-4">
+        <div class="row d-flex flex-row flex-wrap">
+            <div class="col-12 mt-4 mb-4">
+                <div class="media">
+                    <img class="align-self-center mr-3 img-thumbnail" src="/images/pizza.png" alt="Pizza" width="400px"
+                        height="300px">
+                    <div class="media-body">
+                        <h2 class="mt-0">Pizza <span class="badge badge-pill badge-danger">Hot</span> <span
+                                class="badge badge-info">4.5
+                                <i class="fa fa-star" aria-hidden="true"></i></span></h2>
+                        <p>Pizza is a savory dish of Italian origin, consisting of a usually round, flattened base of
+                            leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients
+                            baked at a high temperature, traditionally in a wood-fired oven. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex flex-row flex-wrap">
+            <div class="col-12 mt-4 mb-4">
+                <div class="media">
+
+                    <div class="media-body">
+                        <h2 class="mt-0">Burger <span class="badge badge-pill badge-danger">New</span> <span
+                                class="badge badge-info">4.7
+                                <i class="fa fa-star" aria-hidden="true"></i></span></h2>
+                        <p>Burger is short for a hamburger. It's a fast food sandwich. That is a ground beef patty,
+                            grilled, between a split seeded hamburger bun, often optionally also layered with lettuce,
+                            tomato, pickles, onions, and a variety of sauces such as mayonnaise, mustard, or ketchup.
+                            The burger itself is made of ground meat. </p>
+                    </div>
+                    <img class="align-self-center mr-3 img-thumbnail" src="/images/burger1.jpg" alt="Pizza"
+                        width="300px" height="200px">
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex flex-row flex-wrap">
+            <div class="col-12 mt-4 mb-4">
+                <div class="media">
+                    <img class="align-self-center mr-3 img-thumbnail" src="/images/ice-cream2.png" alt="Pizza"
+                        width="300px" height="200px">
+                    <div class="media-body">
+                        <h2 class="mt-0">Ice-Cream <span class="badge badge-pill badge-danger">Cold</span> <span
+                                class="badge badge-info">4.9
+                                <i class="fa fa-star" aria-hidden="true"></i></span></h2>
+                        <p>Ice cream is a sweetened frozen food typically eaten as a snack or dessert. It may be made
+                            from dairy milk or cream and is flavoured with a sweetener, either sugar or an alternative,
+                            and any spice, such as cocoa or vanilla. Colourings are usually added, in addition to
+                            stabilizers. </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex flex-row flex-wrap">
+            <div class="col-12 mt-4 mb-4">
+                <div class="media">
+                   
+                    <div class="media-body">
+                        <h2 class="mt-0">Thia-Noodles <span class="badge badge-pill badge-danger">Hot</span> <span class="badge badge-pill badge-danger">New</span> <span
+                                class="badge badge-info">4.9
+                                <i class="fa fa-star" aria-hidden="true"></i></span></h2>
+                        <p>Pizza is a savory dish of Italian origin, consisting of a usually round, flattened base of
+                            leavened wheat-based dough topped with tomatoes, cheese, and often various other ingredients
+                            baked at a high temperature, traditionally in a wood-fired oven. </p>
+                    </div>
+                    <img class="align-self-center mr-3 img-thumbnail" src="/images/thainoodles.jpg" alt="Pizza" width="400px"
+                    height="300px">
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex flex-row flex-wrap">
+            <div class="col-12 mt-4 mb-4">
+                <div class="media">
+                    <img class="align-self-center mr-3 img-thumbnail" src="/images/burger2.jpg" alt="Pizza"
+                    width="300px" height="200px">
+                    <div class="media-body">
+                        <h2 class="mt-0">Burger <span class="badge badge-pill badge-danger">New</span> <span
+                                class="badge badge-info">4.7
+                                <i class="fa fa-star" aria-hidden="true"></i></span></h2>
+                        <p>Burger is short for a hamburger. It's a fast food sandwich. That is a ground beef patty,
+                            grilled, between a split seeded hamburger bun, often optionally also layered with lettuce,
+                            tomato, pickles, onions, and a variety of sauces such as mayonnaise, mustard, or ketchup.
+                            The burger itself is made of ground meat. </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex flex-row flex-wrap">
+            <div class="col-12 mt-4 mb-4">
+                <div class="media">
+                    
+                    <div class="media-body">
+                        <h2 class="mt-0">Ice-Cream <span class="badge badge-pill badge-danger">Cold</span> <span
+                                class="badge badge-info">4.9
+                                <i class="fa fa-star" aria-hidden="true"></i></span></h2>
+                        <p>Ice cream is a sweetened frozen food typically eaten as a snack or dessert. It may be made
+                            from dairy milk or cream and is flavoured with a sweetener, either sugar or an alternative,
+                            and any spice, such as cocoa or vanilla. Colourings are usually added, in addition to
+                            stabilizers. </p>
+                    </div>
+                    <img class="align-self-center mr-3 img-thumbnail" src="/images/ice-cream3.png" alt="Pizza"
+                    width="200px" height="100px">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer pt-3" style="background-color:black; color: white;">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 offset-1 col-sm-2">
+                    <h5>Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" id="footer-links">Home</a></li>
+                        <li><a href="#" id="footer-links">Services</a></li>
+                        <li><a href="#" id="footer-links">Recipes</a></li>
+                    </ul>
+                </div>
+                <div class="col-7 col-sm-5">
+                    <h5>Our Address</h5>
+                    <address>
+                        Butwal-6 Amarpath, Rupandehi, Nepal<br>
+                        Tel.: +987 6543 231br>
+                        Fax: +852 8765 4321<br>
+                    </address>
+                </div>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i
+                                class="fa fa-google-plus fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i
+                                class="fa fa-facebook fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i
+                                class="fa fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                                class="fa fa-twitter fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
+                                class="fa fa-youtube fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="mailto:"><i
+                                class="fa fa-envelope fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <p>© Copyright 2018 Try & Share Recipes</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="/node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

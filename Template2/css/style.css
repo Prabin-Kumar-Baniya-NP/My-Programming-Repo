@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.navbar{
+    color: blanchedalmond ;
+}
+
+.carousel-caption h5 {
+    font-weight: bolder;
+    font-size: larger;
+    font-family: 'Pacifico', cursive;
+    color: black;
+}
+
+.carousel-caption p{
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Pacifico', cursive;
+    color: black;
+}

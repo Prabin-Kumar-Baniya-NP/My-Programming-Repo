@@ -1,18 +1,40 @@
+nav {
+    background-color: black;
+}
 .navbar{
-    color:#aa5042;
-    font-size: 130%;
+    color: greenyellow;
     font-weight: bold;
 }
 
+.navbar-toggler{
+    padding-top: 15px;
+    border-radius: 50%;
+    background-color: goldenrod;
+}
+
 .nav-link {
-    color: brown;
+    color: whitesmoke;
 }
 .jumbotron {
-    padding: 150px 5px 25px 5px;
+    padding: 150px 0px 25px 0px;
     height: 400px;
+    text-align: center;
    background-color: #d8d78f;
    border-radius: 0%;
 }
+
+.card{
+    margin: 15px 10px 15px 10px;
+    border-radius: 3%;
+    background-color: palevioletred;
+    
+}
+
+.card-header {
+    background-color: peru;
+    margin: 3%;
+}
+
 .hero-text{
     display: flex;
     flex-direction: column;
